@@ -31,3 +31,7 @@ The forlder an its files myst follow these naming rules
 ## Two ways to Create Component
 - Using Terminal => sfdx force:lightning:component:create --type lwc -n helloWorld
 - Using Command Palette => VSCode -> View -> Command Palette -> Type Create LWC -> Enter desired file name -> Again hit enter to choose default path.
+
+
+## App Creation and Component Deployment
+App Creation => Page Creation => Component Deployment => Component Assignment
