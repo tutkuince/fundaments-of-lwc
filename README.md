@@ -16,3 +16,18 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+
+## Component Naming Convention
+The forlder an its files myst follow these naming rules 
+- Must begin with a lowercase letter
+- Contain only alphanumeric or underscore characters
+- Must be unique in the namespace
+- Can't include whitespace 
+- Can't end with an uderscore
+- Can't contain two consecutive underscores
+- Can't contain a hyphen (dash)
+
+## Two ways to Create Component
+- Using Terminal => sfdx force:lightning:component:create --type lwc -n helloWorld
+- Using Command Palette => VSCode -> View -> Command Palette -> Type Create LWC -> Enter desired file name -> Again hit enter to choose default path.
